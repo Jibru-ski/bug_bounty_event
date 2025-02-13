@@ -6,8 +6,7 @@ import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../src")))
 
 from magic_calculator import add, is_prime, show_secret
-
-
+    
 class TestMagic(unittest.TestCase):
     def test_add(self):
         self.assertEqual(add(2, 3), 5)
